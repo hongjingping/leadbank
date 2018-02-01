@@ -1,0 +1,11 @@
+{
+	"presets": [
+		["env",{
+			"targets": {
+		       "browsers": ["last 100 versions", "safari >= 7","Android >= 3.0.0","ie >= 6","> 90%"]
+		    }
+		}],
+		"stage-0"
+	],
+	"plugins": ["transform-runtime","syntax-dynamic-import"]
+}
